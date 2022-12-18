@@ -1,13 +1,23 @@
 import "./App.css";
-import Nav from "./Components/Nav";
+import Faq from "./Screens/Faq";
 import Home from "./Screens/Home";
+import Nav from "./Components/Nav";
+import Registry from "./Screens/Registry";
+import Story from "./Screens/Story";
+import Travel from "./Screens/Travel";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Nav />
-      <Home />
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/travelandstay" element={<Travel />} />
+        <Route path="/ourstory" element={<Story />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/registry" element={<Registry />} />
+      </Routes>
     </>
   );
 }
