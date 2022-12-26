@@ -25,9 +25,9 @@ function Home() {
 
   return (
     <div className="home-container">
-      <div className="home-title">
+      {/* <div className="home-title">
         <h1>Two Less Fish in the Sea</h1>
-      </div>
+      </div> */}
       {/* <div className="fish-container">
         <div className="flounder">
           <MovingComponent
@@ -67,9 +67,9 @@ function Home() {
         <ScrollPage page={1}>
           <Animator animation={ZoomInScrollOut}>
             <div style={{ fontSize: "3em" }}>
-              Captain Bill's at the Bayview House
+              The Bayview House at Captain Bill's
             </div>
-            <div style={{ fontSize: "3em" }}>Bayshore, NY</div>
+            <div style={{ fontSize: "3em" }}>Bay Shore, NY</div>
             <div style={{ fontSize: "3em" }}>July 7th, 2023</div>
             <div style={{ fontSize: "3em" }}>5:30pm</div>
           </Animator>

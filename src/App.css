@@ -1,8 +1,14 @@
-.body{
+.body {
   text-align: center;
 }
 
-.fish-container{
+.fish-container {
   justify-content: center;
   display: flex;
+}
+
+.pics {
+  height: 200px;
+  width: 200px;
+  background-color: red;
 }

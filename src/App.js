@@ -1,6 +1,7 @@
 import "./App.css";
 import Faq from "./Screens/Faq";
 import Home from "./Screens/Home";
+import Location from "./Screens/Location";
 import Nav from "./Components/Nav";
 import Registry from "./Screens/Registry";
 import Story from "./Screens/Story";
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/location" element={<Location />} />
         <Route path="/travelandstay" element={<Travel />} />
         <Route path="/ourstory" element={<Story />} />
         <Route path="/faq" element={<Faq />} />
