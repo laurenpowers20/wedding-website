@@ -1,14 +1,15 @@
-.body {
+body {
+  background-color: rgb(236, 226, 199);
   text-align: center;
 }
 
-.fish-container {
-  justify-content: center;
-  display: flex;
-}
+@media only screen and (max-width: 600px) {
+  img {
+    width: 200px;
+  }
 
-.pics {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  h1 {
+    margin: auto;
+    font-size: 20px;
+  }
 }
