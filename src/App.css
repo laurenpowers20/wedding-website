@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
+
 body {
   background-color: rgb(236, 226, 199);
   text-align: center;
+}
+
+h1 {
+  font-family: "Miltonian Tattoo", cursive;
+  font-size: 60px;
 }
 
 @media only screen and (max-width: 600px) {
