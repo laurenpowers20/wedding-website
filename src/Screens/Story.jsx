@@ -7,6 +7,7 @@ function Story() {
   return (
     <>
       <h1>Our story</h1>
+<<<<<<< HEAD
       <Carousel slide={false}>
         <Carousel.Item>
           <img
@@ -42,6 +43,10 @@ function Story() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+=======
+   
+  <p>More coming soon.</p>
+>>>>>>> 2ace53f (remove scroll feature)
     </>
   );
 }
