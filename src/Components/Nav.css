@@ -44,4 +44,9 @@ a:hover {
   .nav-component {
     height: 70px;
   }
+
+  .nav-icon {
+    width: 25px;
+    height: 25px;
+  }
 }
