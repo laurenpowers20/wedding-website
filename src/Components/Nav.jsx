@@ -12,6 +12,9 @@ function Nav() {
           <NavLink className="navlink" to="/location">
             Party Location
           </NavLink>
+          <NavLink className="navlink" to="/photos">
+            Photos
+          </NavLink>
         </div>
       </div>
     </>
