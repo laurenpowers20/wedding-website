@@ -5,7 +5,7 @@
   width: 100%;
 }
 .nav-link-container {
-  font-size: 30px;
+  font-size: 35px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -17,6 +17,14 @@
   margin: 5px;
   padding: 10px;
   text-decoration: none;
+}
+
+.navlink:hover {
+  transform: scale(1.07);
+}
+
+.nav-icon {
+  height: 40px;
 }
 
 a {

@@ -1,7 +1,7 @@
 .galleryWrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   justify-content: center;
   max-width: 620px;
@@ -11,6 +11,9 @@
 .galleryWrap .single {
   width: 200px;
   cursor: pointer;
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
 .galleryWrap .single img {
@@ -36,7 +39,9 @@
   height: 100%;
 }
 
-.sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext {
+.sliderWrap .btnClose,
+.sliderWrap .btnPrev,
+.sliderWrap .btnNext {
   position: fixed;
   cursor: pointer;
   opacity: 0.6;
@@ -44,7 +49,9 @@
   z-index: 9999;
 }
 
-.btnNext:hover, .btnPrev:hover, .btnClose:hover {
+.btnNext:hover,
+.btnPrev:hover,
+.btnClose:hover {
   opacity: 1;
 }
 
@@ -79,5 +86,5 @@
   pointer-events: none;
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */  
+  user-select: none; /* Standard syntax */
 }

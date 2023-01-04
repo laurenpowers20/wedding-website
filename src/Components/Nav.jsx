@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom";
+import anchor from "../images/icons/anchor-icon.png";
+import camera from "../images/icons/camera.png";
+import party from "../images/icons/party.png";
 import "./Nav.css";
 
 function Nav() {
@@ -7,13 +10,14 @@ function Nav() {
       <div className="nav-component">
         <div className="nav-link-container">
           <NavLink className="navlink" to="/">
-            Home
+            Home <img src={anchor} className="nav-icon" alt="anchor icon" />
           </NavLink>
           <NavLink className="navlink" to="/location">
-            Party Location
+            Party Location{" "}
+            <img src={party} className="nav-icon" alt="party icon" />
           </NavLink>
           <NavLink className="navlink" to="/photos">
-            Photos
+            Photos <img src={camera} className="nav-icon" alt="camera icon" />
           </NavLink>
         </div>
       </div>
