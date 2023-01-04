@@ -3,6 +3,7 @@ import Faq from "./Screens/Faq";
 import Home from "./Screens/Home";
 import Location from "./Screens/Location";
 import Nav from "./Components/Nav";
+import Photos from "./Screens/Photos";
 import Registry from "./Screens/Registry";
 import Story from "./Screens/Story";
 import Travel from "./Screens/Travel";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/ourstory" element={<Story />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/registry" element={<Registry />} />
+        <Route path="/photos" element={<Photos />} />
       </Routes>
     </>
   );
