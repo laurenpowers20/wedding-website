@@ -4,14 +4,24 @@ import MovingComponent from "react-moving-text";
 function Location() {
   return (
     <>
-      <img src={bay} alt="bayview house logo" />
-
       <MovingComponent
-        type="bounce"
+        type="fadeInFromTop"
         duration="1000ms"
         delay="0s"
         direction="normal"
-        timing="ease-in"
+        timing="ease"
+        iteration="1"
+        fillMode="none"
+      >
+        <img src={bay} alt="bayview house logo" />
+      </MovingComponent>
+
+      <MovingComponent
+        type="fadeInFromBottom"
+        duration="1000ms"
+        delay="0s"
+        direction="normal"
+        timing="ease"
         iteration="1"
         fillMode="none"
       >
