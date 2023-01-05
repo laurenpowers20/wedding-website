@@ -14,8 +14,11 @@ function Home() {
           iteration="1"
           fillMode="none"
         >
-          <h1> Under Construction! </h1>
-          <h1>Check back soon.</h1>
+          <h1> Lauren & Jesse </h1>
+          <h1>July 7, 2023</h1>
+          <h2 className="home-underconstruction">
+            Site is still under construction. Check back soon for updates!
+          </h2>
         </MovingComponent>
         <MovingComponent
           type="fadeInFromBottom"

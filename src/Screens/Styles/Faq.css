@@ -1,3 +1,27 @@
-.faq-questions{
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.faq-questions {
+  font-family: "Miltonian Tattoo", cursive;
+  text-align: left;
+  font-size: 40px;
   padding: 20px;
+}
+
+.faq-answers {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.faq-skull-gif {
+  width: 100px;
+}
+
+.faq-about-this-page {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  padding: 50px;
 }

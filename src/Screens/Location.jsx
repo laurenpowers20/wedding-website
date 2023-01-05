@@ -26,11 +26,11 @@ function Location() {
           iteration="1"
           fillMode="none"
         >
-          <img
+         <a href="https://captainbills.com/" target="_blank" rel="noreferrer"><img
             src={bay}
             className="location-bayview"
             alt="bayview house logo"
-          />
+          /> </a>
         </MovingComponent>
 
         <MovingComponent
