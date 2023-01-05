@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import anchor from "../images/icons/anchor-icon.png";
+import anchor from "../images/icons/anchor.png";
 import "./Nav.css";
 
 function Nav() {

@@ -5,7 +5,7 @@
   width: 100%;
 }
 .nav-link-container {
-  font-size: 35px;
+  font-size: 40px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -15,7 +15,8 @@
 .navlink {
   font-family: "Miltonian Tattoo", cursive;
   margin: 5px;
-  padding: 10px;
+  padding: 20px;
+  align-items: center;
   text-decoration: none;
 }
 

@@ -1,9 +1,21 @@
 import bay from "../images/bayview.png";
+import booze from "../images/booze.gif";
 import MovingComponent from "react-moving-text";
 
 function Location() {
   return (
     <>
+      <MovingComponent
+        type="flip"
+        duration="1000ms"
+        delay="0s"
+        direction="normal"
+        timing="ease"
+        iteration="1"
+        fillMode="none"
+      >
+        <img src={booze} className="location-bottle-gif" alt="bottle gif" />
+      </MovingComponent>
       <MovingComponent
         type="fadeInFromTop"
         duration="1000ms"
@@ -13,7 +25,7 @@ function Location() {
         iteration="1"
         fillMode="none"
       >
-        <img src={bay} alt="bayview house logo" />
+        <img src={bay} className="location-bayview" alt="bayview house logo" />
       </MovingComponent>
 
       <MovingComponent
