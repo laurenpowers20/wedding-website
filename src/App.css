@@ -36,15 +36,19 @@ h1 {
   h2 {
     font-size: 20px;
   }
+
   h3 {
     font-size: 15px;
   }
-  main{
+
+  main {
     margin-top: 4.5rem;
   }
+
   .location-bayview {
-    width: 400px;
-    padding: 10px;
+    width: 390px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .location-bottle-gif {
