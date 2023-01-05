@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
 
 body {
-  background-color: rgb(236, 226, 199);
+  background-color: #ece2c7;
   text-align: center;
 }
 
 h1 {
   font-family: "Miltonian Tattoo", cursive;
   font-size: 60px;
+}
+
+.hamburger-menu-div {
+  display: none;
 }
 
 .location-bottle-gif {
@@ -35,7 +39,9 @@ h1 {
   h3 {
     font-size: 15px;
   }
-
+  main{
+    margin-top: 4.5rem;
+  }
   .location-bayview {
     width: 400px;
     padding: 10px;
@@ -44,5 +50,13 @@ h1 {
   .location-bottle-gif {
     width: 220px;
     padding-left: 30px;
+  }
+
+  .nav-bar-div {
+    display: none;
+  }
+
+  .hamburger-menu-div {
+    display: block;
   }
 }
