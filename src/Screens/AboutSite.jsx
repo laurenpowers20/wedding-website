@@ -1,5 +1,6 @@
 import mermaid from "../images/mermaid.gif";
 import MovingComponent from "react-moving-text";
+import { Link } from "react-router-dom";
 function AboutSite() {
   return (
     <>
@@ -23,11 +24,11 @@ function AboutSite() {
           Oh hello there, I see you've stumbled upon my shameless plug.{" "}
         </p>
         <p className="about-site-text">
-          I engineered, designed, and coded this site myself with my own two
-          hands and brain.
+          'Twas I who engineered, designed, and coded this site myself with my
+          own two hands and brain.
         </p>
         <p className="about-site-text">
-          If you know someone that has a front end developer need, please pass
+          If you know someone that needs a front end developer, please pass
           along my information!{" "}
         </p>
         <p>
@@ -42,6 +43,10 @@ function AboutSite() {
           </a>
         </p>
       </main>
+      <footer>
+        {" "}
+        <Link to="/">Home</Link>
+      </footer>
     </>
   );
 }
