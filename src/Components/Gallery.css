@@ -4,12 +4,12 @@
   gap: 15px;
   align-items: center;
   justify-content: center;
-  max-width: 620px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .galleryWrap .single {
-  width: 200px;
+  width: 220px;
   cursor: pointer;
   -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
@@ -87,4 +87,10 @@
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+}
+
+@media only screen and (max-width: 600px) {
+  .galleryWrap .single {
+    width: 120px;
+  }
 }

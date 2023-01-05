@@ -10,6 +10,14 @@ h1 {
   font-size: 60px;
 }
 
+.location-bottle-gif {
+  width: 300px;
+  padding-left: 40px;
+}
+
+.location-bayview {
+  width: 600px;
+}
 
 @media only screen and (max-width: 600px) {
   img {
@@ -26,5 +34,14 @@ h1 {
   }
   h3 {
     font-size: 15px;
+  }
+
+  .location-bayview {
+    width: 400px;
+  }
+
+  .location-bottle-gif {
+    width: 220px;
+    padding-left: 30px;
   }
 }
