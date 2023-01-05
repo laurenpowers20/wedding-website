@@ -26,10 +26,7 @@ const NavBackground = styled.div`
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(
-    ${COLORS.primaryLight2},
-    ${COLORS.primaryLight}
-  );
+  background-color: ${COLORS.primaryLight};
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
@@ -105,7 +102,7 @@ const ItemLink = styled(NavLink)`
     120deg,
     transparent 0%,
     transparent 50%,
-    #fff 50%
+    #c40e11 50%
   );
   background-size: 240%;
   transition: all 0.4s;
