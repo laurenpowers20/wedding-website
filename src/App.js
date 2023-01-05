@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutSite from "./Screens/AboutSite";
 import Faq from "./Screens/Faq";
 import Hamburger from "./Components/Hamburger";
 import Home from "./Screens/Home";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/faq" element={<Faq />} />
         <Route path="/registry" element={<Registry />} />
         <Route path="/photos" element={<Photos />} />
+        <Route path="/aboutthispage" element={<AboutSite />} />
       </Routes>
     </>
   );

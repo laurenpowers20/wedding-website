@@ -16,6 +16,9 @@ function Nav() {
           {/* <NavLink className="navlink" to="/photos">
             Photos
           </NavLink> */}
+          <NavLink className="navlink" to="/faq">
+            FAQs
+          </NavLink>
         </div>
       </div>
     </>

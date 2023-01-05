@@ -32,19 +32,21 @@ function Photos() {
 
   return (
     <>
-      <MovingComponent
-        type="slideInFromRight"
-        duration="3000ms"
-        delay="0s"
-        direction="normal"
-        timing="ease"
-        iteration="1"
-        fillMode="none"
-      >
-        <img src={swallow} className="location-bottle-gif" alt="swallow" />
-      </MovingComponent>
+      <main>
+        <MovingComponent
+          type="slideInFromRight"
+          duration="3000ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
+          <img src={swallow} className="location-bottle-gif" alt="swallow" />
+        </MovingComponent>
 
-      <Gallery galleryImages={galleryImages} />
+        <Gallery galleryImages={galleryImages} />
+      </main>
     </>
   );
 }
