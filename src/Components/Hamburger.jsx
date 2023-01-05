@@ -5,7 +5,7 @@ import { useState } from "react";
 const COLORS = {
   primaryDark: "#000000",
   primaryLight: "#ece2c7",
-  // primaryLight: "#FF0000",
+  primaryLight2: "#fcf2d4",
 };
 
 const MenuLabel = styled.label`
@@ -27,7 +27,7 @@ const NavBackground = styled.div`
   top: 6.5rem;
   right: 6.5rem;
   background-image: radial-gradient(
-    ${COLORS.primaryDark},
+    ${COLORS.primaryLight2},
     ${COLORS.primaryLight}
   );
   height: 2rem;
@@ -99,7 +99,7 @@ const ItemLink = styled(NavLink)`
   font-size: 3rem;
   font-weight: 300;
   text-decoration: none;
-  color: ${COLORS.primaryLight};
+  color: ${COLORS.primaryDark};
   padding: 1rem 2rem;
   background-image: linear-gradient(
     120deg,
