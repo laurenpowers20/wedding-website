@@ -5,7 +5,7 @@ import { useState } from "react";
 const COLORS = {
   primaryDark: "#000000",
   primaryLight: "#ece2c7",
-  primaryLight2: "#fcf2d4",
+  primaryLight2: "#ece2c7",
 };
 
 const MenuLabel = styled.label`
@@ -35,7 +35,7 @@ const NavBackground = styled.div`
   border-radius: 50%;
   z-index: 600;
   transform: ${(props) => (props.clicked ? "scale(80)" : "scale(0)")};
-  transition: transform 0.8s;
+  transition: transform 0.3s;
 `;
 
 const Icon = styled.span`
