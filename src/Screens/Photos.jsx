@@ -1,4 +1,6 @@
 import Gallery from "../Components/Gallery";
+import swallow from "../images/swallow.GIF";
+import MovingComponent from "react-moving-text";
 
 function Photos() {
   const galleryImages = [
@@ -30,6 +32,18 @@ function Photos() {
 
   return (
     <>
+      <MovingComponent
+        type="slideInFromRight"
+        duration="3000ms"
+        delay="0s"
+        direction="normal"
+        timing="ease"
+        iteration="1"
+        fillMode="none"
+      >
+        <img src={swallow} className="location-bottle-gif" alt="swallow" />
+      </MovingComponent>
+
       <Gallery galleryImages={galleryImages} />
     </>
   );

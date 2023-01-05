@@ -5,6 +5,7 @@ import MovingComponent from "react-moving-text";
 function Location() {
   return (
     <>
+      <main>
       <MovingComponent
         type="flip"
         duration="1000ms"
@@ -40,7 +41,8 @@ function Location() {
         <h2>122 Ocean Ave, Bay Shore, NY 11706</h2>
         <h3>Friday July 7th, 2023</h3>
         <h3>5:30PM</h3>
-      </MovingComponent>
+        </MovingComponent>
+        </main>
     </>
   );
 }
