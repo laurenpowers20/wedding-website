@@ -22,7 +22,7 @@ function Faq() {
         </MovingComponent>
         <h1>FAQ</h1>
         <div className="faq-questions">
-          <p>Wait, so it's in the Captain Bill's restaurant?</p>
+          <p>So it's in the Captain Bill's restaurant?</p>
           <p className="faq-answers">
             {" "}
             It's in the Bayview House which is on the same property as the
