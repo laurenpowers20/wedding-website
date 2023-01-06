@@ -141,6 +141,12 @@ function Hamburger() {
               FAQs
             </ItemLink>
           </li>
+
+          <li>
+            <ItemLink onClick={handleClick} to="/ourstory">
+              Our Story
+            </ItemLink>
+          </li>
         </List>
       </Navigation>
     </>
