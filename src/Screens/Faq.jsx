@@ -10,7 +10,7 @@ function Faq() {
     <>
       <main>
         <MovingComponent
-          type="flip"
+          type="swing"
           duration="2000ms"
           delay="0s"
           direction="normal"
