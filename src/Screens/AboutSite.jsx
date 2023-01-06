@@ -6,7 +6,7 @@ function AboutSite() {
     <>
       <main>
         <MovingComponent
-          type="flip"
+          type="slideInFromLeft"
           duration="2000ms"
           delay="0s"
           direction="normal"

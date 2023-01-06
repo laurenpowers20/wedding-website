@@ -14,7 +14,7 @@
 }
 
 .faq-skull-gif {
-  width: 100px;
+  width: 200px;
 }
 
 .faq-about-this-page {
@@ -24,4 +24,18 @@
 
 footer {
   padding: 50px;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .faq-questions {
+    font-size: 30px;
+  }
+
+  .faq-answers {
+    font-size: 20px;
+  }
+
+  .faq-skull-gif {
+    width: 150px;
+  }
 }
