@@ -46,6 +46,10 @@ function Faq() {
           </p>
         </div>
         <div className="faq-questions">
+          <p>Do you have a registry?</p>
+          <p className="faq-answers">Coming soon, folks!</p>
+        </div>
+        <div className="faq-questions">
           <p>What's the best way to get there?</p>
           <p className="faq-answers">
             There's plenty of parking at Captain Bill's, so driving is a good
