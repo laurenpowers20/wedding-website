@@ -24,7 +24,8 @@ h3 {
 .our-story-center {
   display: inline-flex;
 }
-.our-story-image {
+.our-story-image,
+.dagger-story-image {
   height: 150px;
   align-items: center;
   justify-content: center;
@@ -171,9 +172,15 @@ h3 {
   }
 
   .our-story-image {
-    /* height: 100px;
-    width: 75px; */
+    width: 170px;
+    max-height: 100%;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+  }
+
+  .dagger-story-image {
+    width: 100px;
+    padding: 0px;
   }
 }

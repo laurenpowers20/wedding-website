@@ -19,9 +19,13 @@ function Story() {
               iteration="1"
               fillMode="none"
             >
-              <img src={swallow1} className="our-story-image" />
+              <img
+                src={swallow1}
+                className="our-story-image"
+                alt="sailor swallow"
+              />
             </MovingComponent>
-            <img src={dagger} className="our-story-image" />
+            <img src={dagger} className="dagger-story-image" alt="dagger" />
             <MovingComponent
               type="slideInFromRight"
               duration="2000ms"
@@ -31,7 +35,11 @@ function Story() {
               iteration="1"
               fillMode="none"
             >
-              <img src={swallow2} className="our-story-image" />
+              <img
+                src={swallow2}
+                className="our-story-image"
+                alt="sailor swallow"
+              />
             </MovingComponent>
           </div>
         </div>
