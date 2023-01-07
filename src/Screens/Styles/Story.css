@@ -44,7 +44,8 @@ h3 {
   left: 50%;
   width: 2px;
   height: 100%;
-  background: #c5c5c5;
+  /* background: #c5c5c5; */
+  background: #343434;
 }
 .timeline ul {
   padding: 0;
@@ -79,7 +80,7 @@ h3 {
   right: -6px;
   background: #c40e11;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.7);
   /* box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2); */
 }
 .timeline ul li:nth-child(even):before {
@@ -91,7 +92,7 @@ h3 {
   left: -4px;
   background: #c40e11;
   border-radius: 50%;
-  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.7);
 }
 .timeline ul li h3 {
   padding: 0;
@@ -117,7 +118,7 @@ h3 {
   background: #c40e11;
   color: #fff;
   border-radius: 18px;
-  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.7);
 }
 .timeline ul li:nth-child(even) .time {
   position: absolute;
@@ -128,7 +129,7 @@ h3 {
   background: #c40e11;
   color: #fff;
   border-radius: 18px;
-  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 3px rgb(0, 0, 0, 0.7);
 }
 
 .bottom {

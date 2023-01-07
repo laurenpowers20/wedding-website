@@ -49,11 +49,11 @@ function Story() {
               <div className="content">
                 <h3>We got set up</h3>
                 <p>
-                  Sisters, Tracy and Dez decided to set up their two friends on
-                  a date. The couple met at a party once but Jesse doesn't
-                  remember Lauren. Jesse calls Lauren anyway to ask her out and
-                  she ignores it because it's probably a scam likely. He left a
-                  voicemail, though.
+                  Sisters, Tracy and Dez thought we were compatible and
+                  suggested we go on a date. The couple met at a party once but
+                  Jesse doesn't remember Lauren. Jesse called Lauren anyway to
+                  ask her out and she ignores it because it's probably a scam
+                  likely. He left a voicemail, though.
                 </p>
               </div>
               <div className="time">
@@ -66,8 +66,7 @@ function Story() {
                 <h3>First Date</h3>
                 <p>
                   Fools, Lauren and Jesse go on a first date on April Fool's
-                  Day. They have pizza and beer in a dive bar in Astoria,
-                  Queens.
+                  Day. They have pizza and beer in Astoria, Queens.
                 </p>
               </div>
               <div className="time">
@@ -77,7 +76,7 @@ function Story() {
 
             <li>
               <div className="content">
-                <h3>Move to Forest Hills</h3>
+                <h3>Moved to Forest Hills</h3>
                 <p>
                   After having a lot of fun being essential workers during the
                   pandemic, Lauren and Jesse move to their apartment in Forest
@@ -92,7 +91,7 @@ function Story() {
             <li>
               <div className="content">
                 <h3>Surprise! City Hall wedding.</h3>
-                <p>We just went for it! </p>
+                <p>We just went for it! What else were we doing, really? </p>
               </div>
               <div className="time">
                 <h4>May 13 2022</h4>
@@ -106,8 +105,8 @@ function Story() {
                   Here's the part where you come in! It's been a great first
                   year being married. We are very lucky to have so many amazing
                   people in our lives. We want to bring you all together to
-                  celebrate! So come hungry, enjoy the open bar, dress up fancy,
-                  and let's celebrate!{" "}
+                  celebrate! So come hungry, enjoy the open bar, dress up fancy
+                  (or wear your tuxedo t-shirt?! I dunno), and let's celebrate!{" "}
                 </p>
               </div>
               <div className="time">
