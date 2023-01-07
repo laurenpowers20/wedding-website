@@ -93,7 +93,7 @@ const List = styled.ul`
 const ItemLink = styled(NavLink)`
   font-family: "Miltonian Tattoo", cursive;
   display: inline-block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
   text-decoration: none;
   color: ${COLORS.primaryDark};
@@ -126,7 +126,6 @@ function Hamburger() {
 
       <Navigation clicked={click}>
         <List>
-
           <li>
             <ItemLink onClick={handleClick} to="/">
               Home
@@ -151,11 +150,11 @@ function Hamburger() {
             </ItemLink>
           </li>
           <li>
-          <ItemLink onClick={handleClick} to="/ourstory">
-            Our Story
+            <ItemLink onClick={handleClick} to="/ourstory">
+              Our Story
             </ItemLink>
           </li>
-          
+
           <li>
             <ItemLink onClick={handleClick} to="/photos">
               Photos
@@ -167,7 +166,6 @@ function Hamburger() {
               Registry
             </ItemLink>
           </li>
-          
         </List>
       </Navigation>
     </>
