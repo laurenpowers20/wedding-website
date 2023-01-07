@@ -97,7 +97,7 @@ const ItemLink = styled(NavLink)`
   font-weight: 300;
   text-decoration: none;
   color: ${COLORS.primaryDark};
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   background-image: linear-gradient(
     120deg,
     transparent 0%,
