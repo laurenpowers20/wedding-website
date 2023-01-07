@@ -6,10 +6,11 @@
   justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .galleryWrap .single {
-  width: 220px;
+  width: 200px;
   cursor: pointer;
   -webkit-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.75);
@@ -84,13 +85,18 @@
   max-width: 100%;
   max-height: 100%;
   pointer-events: none;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .galleryWrap .single {
     width: 120px;
+  }
+
+  .sliderWrap .btnClose {
+    top: 40px;
+    left: 40px;
   }
 }

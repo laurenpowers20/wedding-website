@@ -4,8 +4,9 @@
   height: 100px;
   width: 100%;
 }
+
 .nav-link-container {
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -15,7 +16,8 @@
 .navlink {
   font-family: "Miltonian Tattoo", cursive;
   margin: 5px;
-  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   align-items: center;
   text-decoration: none;
 }
@@ -35,7 +37,7 @@ a:hover {
   color: #c40e11;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .navlink {
     padding: 5px;
     font-size: 20px;

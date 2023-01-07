@@ -26,11 +26,13 @@ function Location() {
           iteration="1"
           fillMode="none"
         >
-         <a href="https://captainbills.com/" target="_blank" rel="noreferrer"><img
-            src={bay}
-            className="location-bayview"
-            alt="bayview house logo"
-          /> </a>
+          <a href="https://captainbills.com/" target="_blank" rel="noreferrer">
+            <img
+              src={bay}
+              className="location-bayview"
+              alt="bayview house logo"
+            />{" "}
+          </a>
         </MovingComponent>
 
         <MovingComponent
@@ -43,8 +45,8 @@ function Location() {
           fillMode="none"
         >
           <h2>122 Ocean Ave, Bay Shore, NY 11706</h2>
-          <h3>Friday July 7th, 2023</h3>
-          <h3>5:30PM</h3>
+          <h3 className="location-date-time">Friday July 7th, 2023</h3>
+          <h3 className="location-date-time">5:30PM</h3>
         </MovingComponent>
       </main>
     </>
