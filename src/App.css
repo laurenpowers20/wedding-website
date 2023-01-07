@@ -88,7 +88,9 @@ h3 {
   .nav-bar-div {
     display: none;
   }
-
+  .photos-swallow-gif {
+    width: 140px;
+  }
   .hamburger-menu-div {
     display: block;
   }
