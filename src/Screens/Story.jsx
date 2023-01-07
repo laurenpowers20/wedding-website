@@ -51,8 +51,8 @@ function Story() {
                 <p>
                   Sisters, Tracy and Dez thought we were compatible and
                   suggested we go on a date. The couple met at a party once but
-                  Jesse doesn't remember Lauren. Jesse called Lauren anyway to
-                  ask her out and she ignores it because it's probably a scam
+                  Jesse didn't remember Lauren. Jesse called Lauren anyway to
+                  ask her out and she ignored it because it was probably a scam
                   likely. He left a voicemail, though.
                 </p>
               </div>
@@ -79,7 +79,7 @@ function Story() {
                 <h3>Moved to Forest Hills</h3>
                 <p>
                   After having a lot of fun being essential workers during the
-                  pandemic, Lauren and Jesse move to their apartment in Forest
+                  pandemic, Lauren and Jesse moved to their apartment in Forest
                   Hills.
                 </p>
               </div>
