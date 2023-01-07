@@ -92,7 +92,11 @@
 
 @media only screen and (max-width: 700px) {
   .galleryWrap .single {
-    width: 120px;
+    width: 140px;
+  }
+
+  .galleryWrap {
+    padding: 5px;
   }
 
   .sliderWrap .btnClose {
