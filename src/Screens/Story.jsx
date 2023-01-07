@@ -50,9 +50,9 @@ function Story() {
                 <h3>We got set up</h3>
                 <p>
                   Sisters, Tracy and Dez decided to set up their two friends on
-                  a date. They met at a party once but Jesse doesn't remember
-                  Lauren. Jesse calls Lauren anyway to ask her out and she
-                  ignores it because it's probably a scam likely. He left a
+                  a date. The couple met at a party once but Jesse doesn't
+                  remember Lauren. Jesse calls Lauren anyway to ask her out and
+                  she ignores it because it's probably a scam likely. He left a
                   voicemail, though.
                 </p>
               </div>
@@ -104,10 +104,10 @@ function Story() {
                 <h3>Party!!</h3>
                 <p>
                   Here's the part where you come in! It's been a great first
-                  year being married. We are very lucky to have so many people
-                  in our lives who have given us their love and friendship. We
-                  want to bring you all together to celebrate! So come hungry,
-                  enjoy the open bar, dress up fancy, and let's celebrate!{" "}
+                  year being married. We are very lucky to have so many amazing
+                  people in our lives. We want to bring you all together to
+                  celebrate! So come hungry, enjoy the open bar, dress up fancy,
+                  and let's celebrate!{" "}
                 </p>
               </div>
               <div className="time">
