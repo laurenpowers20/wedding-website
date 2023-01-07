@@ -11,7 +11,6 @@ import Story from "./Screens/Story";
 import Travel from "./Screens/Travel";
 import { Routes, Route } from "react-router-dom";
 
-
 function App() {
   return (
     <>
@@ -21,11 +20,11 @@ function App() {
       <div className="hamburger-menu-div">
         <Hamburger />
       </div>
-     
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/location" element={<Location />} />
-        <Route path="/travelandstay" element={<Travel />} />
+        <Route path="/travel" element={<Travel />} />
         <Route path="/ourstory" element={<Story />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/registry" element={<Registry />} />

@@ -7,7 +7,7 @@ function AboutSite() {
       <main>
         <MovingComponent
           type="slideInFromLeft"
-          duration="2000ms"
+          duration="3000ms"
           delay="0s"
           direction="normal"
           timing="ease"

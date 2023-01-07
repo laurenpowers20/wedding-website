@@ -43,7 +43,11 @@ h3 {
   width: 600px;
 }
 
-@media only screen and (max-width: 600px) {
+.photos-swallow-gif {
+  width: 200px;
+}
+
+@media only screen and (max-width: 700px) {
   img {
     width: 400px;
   }

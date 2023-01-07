@@ -126,27 +126,48 @@ function Hamburger() {
 
       <Navigation clicked={click}>
         <List>
+
           <li>
             <ItemLink onClick={handleClick} to="/">
               Home
             </ItemLink>
           </li>
+
           <li>
             <ItemLink onClick={handleClick} to="/location">
-              Location
+              Party
             </ItemLink>
           </li>
+
+          <li>
+            <ItemLink onClick={handleClick} to="/travel">
+              Travel
+            </ItemLink>
+          </li>
+
           <li>
             <ItemLink onClick={handleClick} to="/faq">
               FAQs
             </ItemLink>
           </li>
-
           <li>
-            <ItemLink onClick={handleClick} to="/ourstory">
-              Our Story
+          <ItemLink onClick={handleClick} to="/ourstory">
+            Our Story
             </ItemLink>
           </li>
+          
+          <li>
+            <ItemLink onClick={handleClick} to="/photos">
+              Photos
+            </ItemLink>
+          </li>
+
+          <li>
+            <ItemLink onClick={handleClick} to="/registry">
+              Registry
+            </ItemLink>
+          </li>
+          
         </List>
       </Navigation>
     </>
