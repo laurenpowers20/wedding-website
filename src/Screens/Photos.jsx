@@ -5,6 +5,9 @@ import MovingComponent from "react-moving-text";
 function Photos() {
   const galleryImages = [
     {
+      img: "https://i.imgur.com/KaGnFhV.jpg",
+    },
+    {
       img: "https://i.imgur.com/5Oer4te.jpg",
     },
     {
@@ -12,6 +15,9 @@ function Photos() {
     },
     {
       img: "https://i.imgur.com/3QeqKUd.jpg",
+    },
+    {
+      img: "https://i.imgur.com/zeIwxXF.jpg",
     },
 
     {
@@ -43,6 +49,9 @@ function Photos() {
     },
     {
       img: "https://i.imgur.com/3U31rSh.jpg",
+    },
+    {
+      img: "https://i.imgur.com/7nuD3yK.png",
     },
 
     {
