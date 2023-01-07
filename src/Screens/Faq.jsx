@@ -53,10 +53,10 @@ function Faq() {
           <p>What's the best way to get there?</p>
           <p className="faq-answers">
             There's plenty of parking at Captain Bill's, so driving is a good
-            option. City friends, you can take the LIRR to the Bay Shore station
+            option. NYC friends, you can take the LIRR to the Bay Shore station
             and hop in a cab or Uber/Lyft. It's only a 5 minute drive from the
-            station. The <Link to="/travelandstay">Travel & Stay</Link> section
-            is still in the works! Check back for more information.
+            station. The <Link to="/travel">Travel & Stay</Link> section is
+            still in the works! Check back for more information.
           </p>
         </div>
         <div className="faq-questions">
@@ -67,6 +67,13 @@ function Faq() {
           <p>Will there be an after party?</p>
           <p className="faq-answers">
             Maybe we'll all go out in Bay Shore if we are feeling up to it?!
+          </p>
+        </div>
+        <div className="faq-questions">
+          <p>Are you Lauren "Newman" or "Powers"?</p>
+          <p className="faq-answers">
+            I am still Lauren Powers! I do love the Newmans and I'm so excited
+            to be a part of their family!
           </p>
         </div>
       </main>
