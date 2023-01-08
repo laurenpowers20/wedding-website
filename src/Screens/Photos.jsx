@@ -34,6 +34,9 @@ function Photos() {
       img: "https://i.imgur.com/K2DWzVI.jpg",
     },
     {
+      img: "https://i.imgur.com/bUPYPna.jpg",
+    },
+    {
       img: "https://i.imgur.com/RSDMocy.jpg",
     },
 
@@ -43,6 +46,9 @@ function Photos() {
 
     {
       img: "https://i.imgur.com/ybgTzO0.jpg",
+    },
+    {
+      img: "https://i.imgur.com/LJv9JIR.jpg",
     },
     {
       img: "https://i.imgur.com/Y221uzp.jpg",
@@ -59,6 +65,9 @@ function Photos() {
     },
     {
       img: "https://i.imgur.com/yedyZ10.jpg",
+    },
+    {
+      img: "https://i.imgur.com/sMeDM9g.jpg",
     },
 
     {
