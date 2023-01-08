@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Poppins&display=swap");
+/* 
+font-family: 'GFS Didot', serif;
+font-family: 'Poppins', sans-serif;
+font-family: "Miltonian Tattoo", cursive;
+*/
 
 .nav-component {
   height: 100px;
@@ -15,7 +20,6 @@
 }
 
 .navlink {
-  /* font-family: "Miltonian Tattoo", cursive; */
   font-family: "Poppins", sans-serif;
   margin: 5px;
   padding-left: 10px;
