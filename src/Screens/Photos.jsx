@@ -70,7 +70,7 @@ function Photos() {
     <>
       <main>
         <MovingComponent
-          type="slideInFromRight"
+          type="fadeInFromRight"
           duration="3000ms"
           delay="0s"
           direction="normal"
