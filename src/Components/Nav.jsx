@@ -10,23 +10,23 @@ function Nav() {
           <NavLink className="navlink" to="/">
             Home <img src={anchor} className="nav-icon" alt="anchor icon" />
           </NavLink>
-          <NavLink className="navlink" activeClassName="active" to="/location">
+          <NavLink className="navlink" to="/location">
             Party
           </NavLink>
-          <NavLink className="navlink" activeClassName="active" to="/travel">
+          <NavLink className="navlink" to="/travel">
             Travel
           </NavLink>
-          <NavLink className="navlink" activeClassName="active" to="/faq">
+          <NavLink className="navlink" to="/faq">
             FAQs
           </NavLink>
-          <NavLink className="navlink" activeClassName="active" to="/ourstory">
+          <NavLink className="navlink" to="/ourstory">
             Our Story
           </NavLink>
 
-          <NavLink className="navlink" activeClassName="active" to="/photos">
+          <NavLink className="navlink" to="/photos">
             Photos
           </NavLink>
-          <NavLink className="navlink" activeClassName="active" to="/registry">
+          <NavLink className="navlink" to="/registry">
             Registry
           </NavLink>
         </div>

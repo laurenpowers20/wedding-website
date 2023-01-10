@@ -93,7 +93,7 @@ const List = styled.ul`
 const ItemLink = styled(NavLink)`
   font-family: "Miltonian Tattoo", cursive;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
   text-decoration: none;
   color: ${COLORS.primaryDark};

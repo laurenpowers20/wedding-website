@@ -67,6 +67,7 @@ function Faq() {
           <p>Will there be an after party?</p>
           <p className="faq-answers">
             Maybe we'll all go out in Bay Shore if we are feeling up to it?!
+            I'll post more when I come up with a more solid plan.
           </p>
         </div>
         <div className="faq-questions">
