@@ -17,7 +17,11 @@ function Home() {
           <h1> Lauren & Jesse </h1>
           <h1>July 7, 2023</h1>
           <h2 className="home-underconstruction">
-            Site is still under construction. Check back soon for updates!
+            Some plans are still in the works.{" "}
+            <h2>
+              We've written out what we've got going on so far. Check back soon
+              for updates!
+            </h2>
           </h2>
         </MovingComponent>
         <MovingComponent

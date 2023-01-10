@@ -50,9 +50,8 @@ function Story() {
                 <h3>We got set up</h3>
                 <p>
                   Sisters, Tracy and Dez thought Lauren and Jesse were
-                  compatible and suggested they go on a date. The couple met at a
-                  party once but Jesse didn't remember Lauren. Jesse called
-                  Lauren anyway to ask her out and she ignored it because it was
+                  compatible and suggested they go on a date. Jesse called
+                  Lauren to ask her out and she ignored it because it was
                   probably a scam likely. He left a voicemail, though.
                 </p>
               </div>

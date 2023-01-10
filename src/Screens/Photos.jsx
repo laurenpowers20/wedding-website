@@ -3,6 +3,7 @@ import swallow from "../images/swallow.GIF";
 import MovingComponent from "react-moving-text";
 
 function Photos() {
+ 
   const galleryImages = [
     {
       img: "https://i.imgur.com/KaGnFhV.jpg",
