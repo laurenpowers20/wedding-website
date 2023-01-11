@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&family=Poppins&display=swap");
 
 .faq-questions {
   font-family: "Miltonian Tattoo", cursive;
@@ -9,7 +9,7 @@
 }
 
 .faq-answers {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 25px;
 }
 
