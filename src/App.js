@@ -14,11 +14,11 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="nav-bar-div">
-        <Nav />
-      </div>
       <div className="hamburger-menu-div">
         <Hamburger />
+      </div>
+      <div className="nav-bar-div">
+        <Nav />
       </div>
 
       <Routes>

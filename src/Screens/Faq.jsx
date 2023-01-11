@@ -60,14 +60,14 @@ function Faq() {
           </p>
         </div>
         <div className="faq-questions">
-          <p>What is the dress code?</p>
+          <p>How should I dress?</p>
           <p className="faq-answers">Cocktail attire or semi-formal is good!</p>
         </div>
         <div className="faq-questions">
           <p>Will there be an after party?</p>
           <p className="faq-answers">
             Maybe we'll all go out in Bay Shore if we are feeling up to it?!
-            I'll post more when I come up with a more solid plan.
+            We'll post more once we come up with a more solid plan.
           </p>
         </div>
         <div className="faq-questions">

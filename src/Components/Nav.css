@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Poppins&display=swap");
-/* 
-font-family: 'GFS Didot', serif;
+@import url("https://fonts.googleapis.com/css2?family=Lexend&family=Poppins&display=swap");
+/*
+font-family: 'Lexend', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: "Miltonian Tattoo", cursive;
 */
@@ -12,7 +12,6 @@ font-family: "Miltonian Tattoo", cursive;
 }
 
 .nav-link-container {
-  font-size: 35px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -20,8 +19,9 @@ font-family: "Miltonian Tattoo", cursive;
 }
 
 .navlink {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
   margin: 5px;
+  font-size: 30px;
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;

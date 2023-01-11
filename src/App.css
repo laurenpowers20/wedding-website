@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend&family=Poppins&display=swap");
 
 body {
   background-color: #ece2c7;
@@ -8,7 +8,11 @@ body {
 
 .about-site-text {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
+}
+
+.deer {
+  width: 200px;
 }
 
 h1 {
@@ -17,21 +21,20 @@ h1 {
 }
 
 .location-date-time {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
+}
+
+h2 {
+  font-size: 25px;
 }
 
 h2,
 h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 .hamburger-menu-div {
   display: none;
-}
-
-.home-underconstruction {
-  padding: 15px;
-  font-family: "Poppins", sans-serif;
 }
 
 .location-bottle-gif {
@@ -45,6 +48,14 @@ h3 {
 
 .photos-swallow-gif {
   width: 200px;
+}
+.registry {
+  font-size: 20px;
+}
+
+.registry-text,
+p {
+  margin: 5px;
 }
 
 @media only screen and (max-width: 700px) {
